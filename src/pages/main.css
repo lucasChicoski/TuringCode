@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@700&family=PT+Sans+Narrow:wght@400;700&family=Train+One&display=swap');
+
+main {
+    /* background: black; */
+    margin-top: 150px;
+}
+
+.inf1 {
+    
+    background-color: #185c74;
+    color: white;
+}
+
+.gif {
+    display: inline-flex;
+}
+
+.gif p{
+    
+    margin-left: 15 0px;
+    margin-top: 150px;
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+.teamWorking{
+    width: 900px ;
+    height: 800px;
+    float: right;
+}
+
+.inf2 p{
+    width: 800px;
+    font-size: 80px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 300px;
+    margin-left: 30px;
+    display: inline-flex;
+}

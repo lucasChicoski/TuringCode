@@ -1,0 +1,113 @@
+header{
+    
+    background:#302C2C;
+    border-top: 0px solid;
+    margin-top: -20px;
+    display: inline-flex;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 20px;
+    left: 0px;
+}
+
+.logo-principal{
+
+    display: inline;
+    width: 100px;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+
+.nome-principal{
+
+    display: inline;
+    width:500px;
+    padding: 10px 10px;  
+    margin-top: 10px;
+}
+
+.Login{
+    /* padding: 10px 30px; */
+    margin-left: 900px;
+    display: inline-flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    display: block;
+        
+    
+    
+}
+
+input{
+    display: block;
+    margin:10px;
+    border-radius: 5px;
+    
+}
+
+.input{
+    /* margin-top: 15px;
+    margin-left: 900px; */
+}
+
+.emaiL{
+    background-image: url(/src/images/email.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
+
+.senhA{
+    background-image: url(/src/images/senha.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
+
+.emailLogin{
+    height: 50px ;
+    width: 52px ;
+    
+}
+
+.inputButton{
+    display: inline-flex;
+    /* margin-left: 900px; */
+}
+
+.botaoEntrar{
+    margin-left: 10px;
+    width: 80px;
+    height: 25px ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: ridge;
+    box-shadow: 1px 1px 5px white;
+    background-color: #612077;
+    color: white;
+    cursor: pointer;
+}
+.botaoCadastrar{
+    width: 80px;
+    height: 25px ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: ridge;
+    box-shadow: 1px 1px 5px white;
+    margin-left: 14px;
+    background-color: #612077;
+    color: white;
+    cursor: pointer;
+}
+
+.botaoEntrar:hover{
+    background: rgba(252, 252, 252, 0.4);
+}
+.botaoCadastrar:hover{
+    background: rgba(252, 252, 252, 0.4);
+}
