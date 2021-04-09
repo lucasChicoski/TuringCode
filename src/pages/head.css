@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 header{
     
     background:#302C2C;
@@ -5,11 +11,13 @@ header{
     margin-top: -20px;
     display: inline-flex;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 100% ;
     position: fixed;
     top: 20px;
     left: 0px;
 }
+
+
 
 .logo-principal{
 
@@ -29,28 +37,26 @@ header{
 }
 
 .Login{
-    /* padding: 10px 30px; */
-    margin-left: 900px;
+    
+    margin: 0px;
+
+    /* essa parte coloca para a direita */
+    right: 100px;
+    position:absolute;
+    /* essa parte coloca para a direita */
+    
     display: inline-flex;
     margin-top: 5px;
     margin-bottom: 5px;
-    position: relative;
     display: block;
-        
-    
-    
 }
 
 input{
     display: block;
     margin:10px;
     border-radius: 5px;
+    width: 175px; 
     
-}
-
-.input{
-    /* margin-top: 15px;
-    margin-left: 900px; */
 }
 
 .emaiL{
@@ -58,6 +64,7 @@ input{
     background-size: 20px;
     background-repeat: no-repeat;
     background-position-x: 10px;
+    background-position-y: -2px;
 }
 
 .senhA{

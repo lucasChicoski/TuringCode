@@ -1,8 +1,9 @@
-import React from 'react'
-import logoPrincipal from '../images/newLogo2Borda.png'
-import nomeLogo from '../images/logoNameBorda.png'
-import gifRubiksCube from '../images/rubiks_cube.gif'
-import teamWorking from '../images/teamWorkin.png'
+import React from 'react';
+import logoPrincipal from '../images/newLogo2Borda.png';
+import nomeLogo from '../images/logoNameBorda.png';
+import gifRubiksCube from '../images/rubiks_cube.gif';
+import teamWorking from '../images/teamWorkin.png';
+import GroupShare from '../images/teamGroupShare.png';
 
 
 import './global.css'
@@ -17,16 +18,13 @@ function Arq() {
         <div id="App">
             <header>
 
-                <div>
+                <div className="logoGeral">
                     <img className='logo-principal' src={logoPrincipal} />
-                </div>
-
-                <div>
                     <img className='nome-principal' src={nomeLogo} />
                 </div>
 
                 <div className='Login'>
-                    <div className="input">
+                    <div >
                         <input type="text" className='emaiL' title="teste" />
                         <input type="text" className='senhA' />
                     </div>
@@ -40,29 +38,32 @@ function Arq() {
             </header>
 
             <main>
-                <div className="inf1">
-                    <div className="gif">
-                        <img src={gifRubiksCube} />
-                        <p>
-                            Use seus conhecimentos para resolver problemas !
-                        </p>
+                    <div className="inf1">
+                    
+                        <div className="gif">
+                            <img src={gifRubiksCube} />
+                            <p>
+                                Use seus conhecimentos para resolver problemas !
+                            </p>
+                        </div>
                     </div>
+
+
+                <div className="inf2">
+                        <img className="teamWorking" src={teamWorking}/>
+                        <p>" Construa projetos para melhorar o mundo utilizando a tecnologia. "</p>
                 </div>
 
-
-            <div className="inf2">
-                    <img className="teamWorking" src={teamWorking}/>
-                    <p>" Construa projetos para melhorar o mundo utilizando a tecnologia. "</p>
+            <div className="inf3">
+                <img src={GroupShare}/>
+                <p>" Crie grupos, compartilhe ideias e ajude projetos que possa muda a vida das pessoas"</p>
 
             </div>
-
 
             </main>
 
             <footer>
                 <h1>Aqui é o rodapé</h1>
-                
-
             </footer>
 
         </div>
