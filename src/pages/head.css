@@ -45,12 +45,7 @@ input{
     display: block;
     margin:10px;
     border-radius: 5px;
-    
-}
-
-.input{
-    /* margin-top: 15px;
-    margin-left: 900px; */
+    width: 168px;    
 }
 
 .emaiL{
