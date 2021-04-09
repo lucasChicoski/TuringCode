@@ -1,0 +1,34 @@
+
+
+.GlobalFoot{
+    background-color: #605c5c;
+    color: #58b454;
+    text-align: center;
+}
+
+.esquerda{
+    display: inline-flex;
+}
+
+.centro{
+    display: inline-flex;
+    padding: 10px;
+    margin: 50px;
+}
+.direita{
+    display: inline-flex;
+}
+
+li{
+    font-size: 20px;
+    list-style: none;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   line-height: 50px;
+   
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #58b454;
+}
+
