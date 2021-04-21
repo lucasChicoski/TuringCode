@@ -32,7 +32,7 @@ main {
 
 .inf2 p{
     width: 800px;
-    font-size: 80px;
+    font-size: 40px;
     font-family: 'Nunito Sans', sans-serif;
     margin-top: 300px;
     margin-left: 30px;
@@ -43,9 +43,9 @@ main {
     display: inline-flex;
     margin-top: 100px;
     float: right;
-    margin-top: -600px;
+    margin-top: -300px;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 80px;
+    font-size: 40px;
     width: 800px;
     
 }
