@@ -6,10 +6,10 @@ import teamWorking from '../images/teamWorkin.png';
 import GroupShare from '../images/teamGroupShare.png';
 
 
-import './global.css'
-import './head.css'
-import './main.css'
-import './footer.css'
+import './../CSS/global.css'
+import './../CSS/head.css'
+import './../CSS/main.css'
+import './../CSS/footer.css'
 
 
 
