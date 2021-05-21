@@ -24,22 +24,28 @@ function Arq({ onSubmit }) {
 
     }, []) //OBS. Caso o array estiver vazio, será executado uma vez
 
+
+    /**
+     * 
+     * Função que envia todos os parâmetros para a API
+     */
     async function handleSubmit(e) {
 
-        console.log(senha + email)
+       
         //alert(senha + "/" + email )
 
+        // requisição axios
+        axios.post('http://localhost:3333/login', {
 
-        axios.post('http://localhost:3333/login',{
-
-            email:email,
-            senha:senha
+            email: email,
+            senha: senha
 
         }).then(response => {
             console.log(response)
         }).catch(error => {
             console.log(error.response)
         });
+
     }
 
 
@@ -55,28 +61,28 @@ function Arq({ onSubmit }) {
                 </div>
 
                 <div className='Login'>
-                    <form onSubmit={handleSubmit}>
-                        <div >
-                            <input
-                                type="text"
-                                className='emaiL'
-                                title="teste"
-                                value={email}
-                                onChange={e => setEmail(e.target.value)} />
 
-                            <input
-                                type="text"
-                                className='senhA'
-                                value={senha}
-                                onChange={e => setSenha(e.target.value)} />
-                        </div>
+                    <div>
+                        <input
+                            type="text"
+                            className='emaiL'
+                            title="teste"
+                            value={email}
+                            onChange={e => setEmail(e.target.value)} />
+
+                        <input
+                            type="text"
+                            className='senhA'
+                            value={senha}
+                            onChange={e => setSenha(e.target.value)} />
+                    </div>
 
 
-                        <div className="inputButton">
-                            <button className="botaoEntrar" type="submit">Entrar</button>
-                            <button className="botaoCadastrar" type="button">Cadastrar</button>
-                        </div>
-                    </form>
+                    <div className="inputButton">
+                        <button className="botaoEntrar" type="button" onClick={handleSubmit}>Entrar</button> /**Forma de enviar infomações JSX6 */
+                        <a href="#">  <button className="botaoCadastrar" type="button">Cadastrar</button> </a>
+                    </div>
+
                 </div>
 
             </header>
