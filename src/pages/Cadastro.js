@@ -7,7 +7,7 @@ import logoName from './../images/logoNameBorda.png'
 
 function Cadastro() {
     return (
-        <div>
+        <div className="mainframe">
             <div className="cabecalho">
                 <div>
                     <img className="logo" src={logo} />

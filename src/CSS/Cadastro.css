@@ -11,13 +11,14 @@
     height: 50px;
 }
 
-.formCadastro{
-    position: relative;
+.mainframe{
+ display: flex;
+ flex-direction: column;
+
+ justify-content: center;
+ align-items: center
 }
-.child{
-   position: absolute;
-   margin-left: 40%;
-}
+
 
 .formCadastro p{
 color: grey;
