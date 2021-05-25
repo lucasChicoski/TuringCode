@@ -18,15 +18,17 @@ function Cadastro() {
             </div>
 
             <div className="formCadastro">
-                <p>Nome</p>
-                <input />
-                <p>Sobrenome</p>
-                <input />
-                <p>Senha</p>
-                <input />
-                <p>Interesse de trabalho</p>
-                <input />
-                <button type="button">Enviar</button>
+                <div className="child">
+                    <p>Nome</p>
+                    <input />
+                    <p>Sobrenome</p>
+                    <input />
+                    <p>Senha</p>
+                    <input />
+                    <p>Interesse de trabalho</p>
+                    <input />
+                    <button type="button">Enviar</button>
+                </div>
             </div>
         </div>
     )

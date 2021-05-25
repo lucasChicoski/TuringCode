@@ -11,15 +11,18 @@
     height: 50px;
 }
 
-.formCadastro button{
-    margin-left: 15%;
-}
-.formCadastro input{
-    width: 380px;
-}
 .formCadastro{
-   margin-left: 40%;
-  
+    position: relative;
+}
+.child{
+    width: 50px;
+    height: 50px;
+    
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
 }
 
 .formCadastro p{
