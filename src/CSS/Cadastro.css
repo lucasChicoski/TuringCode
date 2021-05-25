@@ -1,0 +1,28 @@
+.cabecalho{
+    margin-top: 5%;
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.nome{
+    width: 400px;
+    height: 50px;
+}
+
+.formCadastro button{
+    margin-left: 15%;
+}
+.formCadastro input{
+    width: 380px;
+}
+.formCadastro{
+   margin-left: 40%;
+  
+}
+
+.formCadastro p{
+color: grey;
+
+}

@@ -1,4 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect} from 'react';
+
+import {Route, Switch, Link} from 'react-router-dom'
+
 import axios from 'axios'
 import logoPrincipal from '../images/newLogo2Borda.png';
 import nomeLogo from '../images/logoNameBorda.png';
@@ -6,6 +9,7 @@ import gifRubiksCube from '../images/rubiks_cube.gif';
 import teamWorking from '../images/teamWorkin.png';
 import GroupShare from '../images/teamGroupShare.png';
 
+import Cadastro from './Cadastro'
 
 import './../CSS/global.css'
 import './../CSS/head.css'
@@ -79,8 +83,9 @@ function Arq({ onSubmit }) {
 
 
                     <div className="inputButton">
-                        <button className="botaoEntrar" type="button" onClick={handleSubmit}>Entrar</button> /**Forma de enviar infomações JSX6 */
-                        <a href="#">  <button className="botaoCadastrar" type="button">Cadastrar</button> </a>
+                        <button className="botaoEntrar" type="button" onClick={handleSubmit}>Entrar</button> {/**Forma de venviar informações */}
+                       <Link to="/Cadastro">  <button className="botaoCadastrar" type="button">Cadastrar</button> </Link>
+                        
                     </div>
 
                 </div>
