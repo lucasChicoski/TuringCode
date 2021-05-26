@@ -46,6 +46,12 @@ function Arq({ onSubmit }) {
 
         }).then(response => {
             console.log(response)
+            
+            if(response.data == '1'){
+                alert('Login Efetuado');
+            }else if(response.data == '2'){
+                alert('Senha ou email incorreto');
+            }
         }).catch(error => {
             console.log(error.response)
         });
@@ -70,12 +76,13 @@ function Arq({ onSubmit }) {
                         <input
                             type="text"
                             className='emaiL'
-                            title="teste"
+                            title="Email"
                             value={email}
                             onChange={e => setEmail(e.target.value)} />
 
                         <input
                             type="text"
+                            title="Senha"
                             className='senhA'
                             value={senha}
                             onChange={e => setSenha(e.target.value)} />

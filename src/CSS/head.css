@@ -62,6 +62,7 @@ input{
 
 .emaiL{
     background-image: url(/src/images/email.png);
+    width: 75%;
     padding-left: 30px;
     background-size: 18px;
     background-repeat: no-repeat;
@@ -71,9 +72,12 @@ input{
 
 .senhA{
     background-image: url(/src/images/senha.png);
-    background-size: 18px;
+    width: 75%;
+    padding-left: 30px;
+    background-size: 15px;
     background-repeat: no-repeat;
     background-position-x: 10px;
+    background-position-y: 0.5px;
 }
 
 .emailLogin{
