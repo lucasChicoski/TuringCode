@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .cabecalho{
     margin-top: 5%;
     text-align: center;
@@ -11,6 +13,10 @@
     height: 50px;
 }
 
+.tela{
+    background-color: #382c2c;
+    height: 950px;
+}
 .mainframe{
  display: flex;
  flex-direction: column;
@@ -18,9 +24,25 @@
  justify-content: center;
  align-items: center
 }
-
+.child input{
+    width: 390px;
+    height: 30px;
+}
+/* continuar editando o botão */
+.child button{
+  margin-left: 30%;
+  width: 150px;
+  height: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px  white       ;
+}
 
 .formCadastro p{
-color: grey;
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left: 5%;
 
 }
+
